@@ -71,11 +71,7 @@ $product = [
               <img src="<?= $element->image?>" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title"><?= $element->name ?></h5>
-                <!-- <span>//?= $element->prezzo?></span> -->
-                <!-- <span>//?= $element->available?></span> -->
-                <!-- <span>//?= $element->quantity?></span> -->
                 <p class="card-text"><?= $element->getProductDetails()?></p>
-                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
               </div>
             </div>
         </div>

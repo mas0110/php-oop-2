@@ -6,7 +6,7 @@ class product{
     public $available ;
     public $quantity;
     public $category;
-
+    use details;
 
     public function __construct(
         $_name,
